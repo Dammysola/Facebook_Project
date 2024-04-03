@@ -1,0 +1,257 @@
+#Sign_in_cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .8);
+    
+}
+
+#SignIn_main_div{
+    
+    width: 455px;
+    /* 432px */
+    height: 585px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+
+}
+#SignUp{
+    color: #1c1e21;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#header button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 30px;
+}
+#header img{
+    width: 20px;
+    height: 20px;
+}
+hr{
+    border: 0.;
+}
+#text{
+    padding: 0 0 5px 15px;
+}
+#quick{
+    color: #606770;
+    font-size: 15px;
+    line-height: 24px;
+}
+#Form{
+    padding-left: 15px; 
+}
+.NameInput{
+    width: 180px;
+    padding: 11px;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    margin-right: 12px;
+    /* box-sizing: border-box; */
+    border: 0.5px solid rgb(161, 153, 153);
+    background-color:#f6f6f7;
+}
+#NameInput_div{
+    display: flex;
+    margin-top: 15px;
+
+   
+}
+.Input{
+    width: 399px;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 16px;
+    background-color:#f6f6f7;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+/* #DOB_main_div{
+    display: flex;
+} */
+#DOB{
+    width: 130px;
+    height: 36px;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+.DOB_gender{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #606770;
+}
+#genderDiv{
+    display: flex;
+}
+.Gender{
+    width: 130.28px;
+    height: 36px;
+    border: 1px solid #ccd0d5;
+    border-radius: 3px;
+    font-weight: normal;
+    margin: 8px 5px 6px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#Text_two{
+    color: #777;
+    font-size: 11px;
+    line-height: 1.34;
+    width: 390px;
+    height: 90px;
+}
+a{
+    text-decoration: none;
+}
+#button_div{
+    text-align: center;
+}
+#SignUp_Button{
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none; 
+}
+/* rgba(255, 255, 255, .8) */
+
+
+/* Log In */
+#LogIn_main_div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px;
+}
+#LogIn_form_div{
+    width: 370px;
+    height: 340px;
+    background-color:#fff;
+    border-radius: 10px;
+    color: #1c1e21;
+    line-height: 1.34;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.LogIn_input{
+    width: 370px;
+    height: 55px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    border: 1px solid #dddfe2;
+    color: #1c1e21;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+.LogIn_input:focus{
+    border: 1px solid  #0866ff ;
+    outline: none;
+   outline-offset: -2px;
+}
+#LogIn_Button{
+    background-color: #0866ff;
+    width: 370px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    line-height: 48px;
+    box-sizing: border-box;
+}
+#forgotten_div{
+    text-align: center;
+    margin: 15px 0 20px;
+}
+#forgotten{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0866ff;
+    cursor: pointer;
+}
+#createAcc_div{
+    text-align: center;
+    margin-top: 30px;
+}
+#createAcc{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 48px;
+    width: 198px;
+    height: 48px;
+    overflow: hidden;
+    padding: 0 16px;
+    text-shadow: none; 
+}
+#facebook_div{
+    margin-right: 90px;
+}
+#facebook{
+    height: 106px;
+    margin: -300px 0 -35px -35px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+#facebook_text{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    padding: 0 0 20px;
+    color: #1c1e21;;
+}
+#anchor{
+    font-size: 15px;
+    color: #1c1e21;
+    font-weight: 700;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+#last_text{
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #1c1e21;
+}

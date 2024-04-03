@@ -1,0 +1,7 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f2f5;
+}
+body{
+  display: flex;
+}
